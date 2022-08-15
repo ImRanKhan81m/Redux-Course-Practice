@@ -8,6 +8,7 @@ function HooksCounter({ id }) {
             <div className="text-2xl font-semibold">
                 {count} - {id}
             </div>
+            
             {/* <div className="flex space-x-3">
                 <button
                     className="bg-indigo-400 text-white px-3 py-2 rounded shadow"
