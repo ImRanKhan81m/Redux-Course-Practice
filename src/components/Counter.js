@@ -3,6 +3,7 @@ import { decrement, increment } from "../redux/counter/actions";
 
 function Counter({ count, increment, decrement }) {
     return (
+
         <div className="p-4 h-auto flex flex-col items-center justify-center space-y-5 bg-white rounded shadow">
             <div className="text-2xl font-semibold">{count}</div>
             <div className="flex space-x-3">
@@ -16,6 +17,7 @@ function Counter({ count, increment, decrement }) {
                     className="bg-red-400 text-white px-3 py-2 rounded shadow"
                     onClick={decrement}
                 >
+
                     Decrement
                 </button>
             </div>
@@ -38,3 +40,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+// edit something
