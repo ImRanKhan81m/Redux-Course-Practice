@@ -49,6 +49,3 @@ export const clearCompleted = () => {
         type: CLEARCOMPLETED,
     };
 };
-
-
-// something
